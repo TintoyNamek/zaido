@@ -1,0 +1,19 @@
+.jp{
+    background-color: red;
+}
+
+.do{
+    background-color: yellow;
+}
+
+@media screen and (min-width: 1324px) {
+    .jp {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jp {
+        background-color: green;
+    }
+}
